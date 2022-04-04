@@ -1,8 +1,7 @@
 const isEven = (n) => {
   if (n % 2 === 0) {
     return true;
-  }
-  if (!isNaN(parseFloat(n)) && isFinite(n)) {
+  } else if (!isNaN(parseFloat(n)) && n % 2 === 0) {
     return true;
   } else {
     return false;
