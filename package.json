@@ -1,0 +1,33 @@
+{
+  "name": "exercice_unit_test",
+  "version": "1.0.0",
+  "description": "First try at unit testing - training exercice - Konexio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauline-wim/exercice_unit_test.git"
+  },
+  "keywords": [
+    "exercice",
+    "testing",
+    "unit",
+    "test",
+    "training",
+    "isEven",
+    "formatDate",
+    "checking"
+  ],
+  "author": "pauline-wim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauline-wim/exercice_unit_test/issues"
+  },
+  "homepage": "https://github.com/pauline-wim/exercice_unit_test#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1"
+  }
+}
